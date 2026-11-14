@@ -1,0 +1,154 @@
+{
+  "status": "OPTIMAL",
+  "message": "Gurobi status 2",
+  "solver": "gurobi",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 36.286,
+      "end": 38.200285714285656,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 5.573,
+      "end": 9.001571428571417,
+      "position": 325.0,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 42.626,
+      "end": 46.56885714285704,
+      "position": 0.0,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 35.612,
+      "end": 39.85485714285713,
+      "position": 197.0,
+      "cranes": [
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 25.06,
+      "end": 31.074285714285715,
+      "position": 727.0,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 20.025,
+      "end": 23.932142857142857,
+      "position": 747.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 43.719,
+      "end": 48.011857142857146,
+      "position": 768.0,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 35.831,
+      "end": 40.45957142857133,
+      "position": 313.0,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 5.386,
+      "end": 10.328857142857142,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 24.486,
+      "end": 30.262190476190476,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 43.090476190475904,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": true,
+  "lower_bound": 43.090476190475954,
+  "solver_relative_gap_on_sum_completion": 0.0,
+  "build_seconds": 0.0021545569998124847,
+  "optimize_seconds": 0.20999194699925283,
+  "wall_seconds": 0.21258175000002666,
+  "budget_seconds": 1.0,
+  "variables": 440,
+  "constraints": 1316,
+  "max_model_violation": 1.021405182655144e-13,
+  "flow_relative_gap": 0.0,
+  "algorithm": "mip",
+  "seed": 0,
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "d300e1db7b152c869366d44746eeb57322d1027b92dd3d920276ab02128d8165"
+}

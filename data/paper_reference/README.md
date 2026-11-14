@@ -1,0 +1,1 @@
+REFERENCE ONLY: transcribed from Tables 2, 4–8 of the provided paper. Not project-run results. Tables 6–8 retain objective columns for redrawing Figures 5–7; runtime columns for these tables are not transcribed. >3600 is a bound, not a measured number. No published averages were copied into recomputed statistics. DOI: 10.21203/rs.3.rs-9235581/v1.

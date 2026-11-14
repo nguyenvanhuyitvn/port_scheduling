@@ -1,0 +1,189 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 29.832,
+      "end": 32.31771428571429,
+      "position": 740.0820907846871,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 20.169,
+      "end": 25.854714285714287,
+      "position": 781.2091466280251,
+      "cranes": [
+        8
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 22.559,
+      "end": 28.080428571428573,
+      "position": 353.9709168409287,
+      "cranes": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 28.60380536449613,
+      "end": 32.8252339359247,
+      "position": 160.06918940531386,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 0.087,
+      "end": 5.987,
+      "position": 100.40220767894625,
+      "cranes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "objective": 24.71309107878185,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25001482399966335,
+  "budget_seconds": 0.25,
+  "generations": 102,
+  "evaluations": 3879,
+  "feasible_evaluations": 3045,
+  "seed": 0,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00012597000022651628,
+      "generation": 0,
+      "objective": 66.98957142857144
+    },
+    {
+      "seconds": 0.0017948160002561053,
+      "generation": 0,
+      "objective": 45.291857142857125
+    },
+    {
+      "seconds": 0.0025475410002400167,
+      "generation": 0,
+      "objective": 34.811000000000014
+    },
+    {
+      "seconds": 0.00816270599989366,
+      "generation": 3,
+      "objective": 34.39758645656509
+    },
+    {
+      "seconds": 0.009021009999742091,
+      "generation": 3,
+      "objective": 33.266857142857155
+    },
+    {
+      "seconds": 0.022280500000306347,
+      "generation": 9,
+      "objective": 32.70141380013271
+    },
+    {
+      "seconds": 0.037559223999778624,
+      "generation": 15,
+      "objective": 31.09489260286022
+    },
+    {
+      "seconds": 0.04513122899970767,
+      "generation": 18,
+      "objective": 30.350524137261267
+    },
+    {
+      "seconds": 0.049550200999874505,
+      "generation": 20,
+      "objective": 30.186635032967857
+    },
+    {
+      "seconds": 0.058376887000122224,
+      "generation": 24,
+      "objective": 30.037180602299152
+    },
+    {
+      "seconds": 0.06619363200024964,
+      "generation": 28,
+      "objective": 29.841786946081772
+    },
+    {
+      "seconds": 0.07568212600017432,
+      "generation": 32,
+      "objective": 29.723172783942537
+    },
+    {
+      "seconds": 0.07608362100017985,
+      "generation": 32,
+      "objective": 28.98616756957074
+    },
+    {
+      "seconds": 0.08389874299973599,
+      "generation": 36,
+      "objective": 28.720184671615314
+    },
+    {
+      "seconds": 0.0861067819996606,
+      "generation": 37,
+      "objective": 26.123929178634718
+    },
+    {
+      "seconds": 0.10780747799981327,
+      "generation": 44,
+      "objective": 25.45058263504775
+    },
+    {
+      "seconds": 0.11806572200021037,
+      "generation": 47,
+      "objective": 24.781995401930395
+    },
+    {
+      "seconds": 0.15783483700033685,
+      "generation": 63,
+      "objective": 24.71309107878185
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "9a7a1d0d6842d2b75c82db530a5b068623802bc5e6bf3dea111fc2024dde7643"
+}

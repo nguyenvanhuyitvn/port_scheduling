@@ -1,0 +1,176 @@
+{
+  "name": "n20_04",
+  "shoreline": 1200,
+  "cranes": 12,
+  "productivity": 35,
+  "vessels": [
+    {
+      "id": "V1",
+      "eta": 41.474,
+      "length": 151,
+      "workload": 230,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V2",
+      "eta": 45.204,
+      "length": 126,
+      "workload": 300,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V3",
+      "eta": 36.223,
+      "length": 178,
+      "workload": 261,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V4",
+      "eta": 46.129,
+      "length": 133,
+      "workload": 244,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V5",
+      "eta": 29.362,
+      "length": 113,
+      "workload": 205,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V6",
+      "eta": 25.096,
+      "length": 89,
+      "workload": 228,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V7",
+      "eta": 29.985,
+      "length": 169,
+      "workload": 100,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V8",
+      "eta": 7.164,
+      "length": 170,
+      "workload": 183,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V9",
+      "eta": 13.804,
+      "length": 296,
+      "workload": 772,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V10",
+      "eta": 47.552,
+      "length": 271,
+      "workload": 486,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V11",
+      "eta": 38.913,
+      "length": 238,
+      "workload": 560,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V12",
+      "eta": 34.742,
+      "length": 223,
+      "workload": 362,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V13",
+      "eta": 29.949,
+      "length": 268,
+      "workload": 664,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V14",
+      "eta": 39.796,
+      "length": 299,
+      "workload": 383,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V15",
+      "eta": 25.043,
+      "length": 247,
+      "workload": 905,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V16",
+      "eta": 33.348,
+      "length": 246,
+      "workload": 412,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V17",
+      "eta": 40.961,
+      "length": 397,
+      "workload": 1069,
+      "q_min": 4,
+      "q_max": 6
+    },
+    {
+      "id": "V18",
+      "eta": 3.538,
+      "length": 396,
+      "workload": 1025,
+      "q_min": 4,
+      "q_max": 6
+    },
+    {
+      "id": "V19",
+      "eta": 37.644,
+      "length": 346,
+      "workload": 1252,
+      "q_min": 4,
+      "q_max": 6
+    },
+    {
+      "id": "V20",
+      "eta": 42.271,
+      "length": 336,
+      "workload": 1227,
+      "q_min": 4,
+      "q_max": 6
+    }
+  ],
+  "metadata": {
+    "source": "self-generated; ranges inspired by paper Table 3",
+    "seed": 2026,
+    "sample_index": 4,
+    "eta_distribution": "uniform continuous [0,48.0] hours rounded to 0.001",
+    "length_workload_distribution": "discrete uniform; inclusive endpoints",
+    "safety_margin_added_m": 0
+  }
+}

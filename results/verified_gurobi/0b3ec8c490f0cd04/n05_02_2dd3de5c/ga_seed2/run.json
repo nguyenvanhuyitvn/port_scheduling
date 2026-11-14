@@ -1,0 +1,184 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 46.46604459691696,
+      "end": 50.523187454059816,
+      "position": 452.75176582227533,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 35.41931255670767,
+      "end": 39.00502684242196,
+      "position": 325.9729026977496,
+      "cranes": [
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 26.879141028493557,
+      "end": 33.15056959992213,
+      "position": 355.3848988975755,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 21.544489006679772,
+      "end": 26.658774720965486,
+      "position": 223.5424750286572,
+      "cranes": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 13.381431895396556,
+      "end": 18.46714618111084,
+      "position": 529.9418322122326,
+      "cranes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "objective": 31.280704798480237,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25007336900034716,
+  "budget_seconds": 0.25,
+  "generations": 89,
+  "evaluations": 3405,
+  "feasible_evaluations": 2133,
+  "seed": 2,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00012341599995124852,
+      "generation": 0,
+      "objective": 61.303
+    },
+    {
+      "seconds": 0.000972005000221543,
+      "generation": 0,
+      "objective": 47.9045238095238
+    },
+    {
+      "seconds": 0.0013653670002895524,
+      "generation": 0,
+      "objective": 40.10928571428572
+    },
+    {
+      "seconds": 0.006721778000610357,
+      "generation": 2,
+      "objective": 39.313954950751366
+    },
+    {
+      "seconds": 0.01031688400053099,
+      "generation": 3,
+      "objective": 38.02142084968743
+    },
+    {
+      "seconds": 0.011844084000586008,
+      "generation": 4,
+      "objective": 35.464277992544574
+    },
+    {
+      "seconds": 0.01860627200039744,
+      "generation": 7,
+      "objective": 35.43622802293959
+    },
+    {
+      "seconds": 0.019303662999845983,
+      "generation": 7,
+      "objective": 34.90150413680937
+    },
+    {
+      "seconds": 0.02855198700035544,
+      "generation": 11,
+      "objective": 34.85229499974969
+    },
+    {
+      "seconds": 0.040065693000542524,
+      "generation": 16,
+      "objective": 34.603424524882364
+    },
+    {
+      "seconds": 0.0583723440004178,
+      "generation": 23,
+      "objective": 34.42045342830908
+    },
+    {
+      "seconds": 0.17843486099991424,
+      "generation": 66,
+      "objective": 32.64727102445882
+    },
+    {
+      "seconds": 0.2058717030004118,
+      "generation": 73,
+      "objective": 32.63776543623015
+    },
+    {
+      "seconds": 0.2115157320004073,
+      "generation": 74,
+      "objective": 32.56225598257941
+    },
+    {
+      "seconds": 0.21215014800054632,
+      "generation": 74,
+      "objective": 31.794245281993383
+    },
+    {
+      "seconds": 0.2340508650004267,
+      "generation": 82,
+      "objective": 31.63128681345824
+    },
+    {
+      "seconds": 0.24348714999996446,
+      "generation": 86,
+      "objective": 31.280704798480237
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "2dd3de5c4cea3257e864613a8c5393fb7dea444ac745e4478dc3d027b255a3b9"
+}

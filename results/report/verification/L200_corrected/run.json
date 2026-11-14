@@ -1,0 +1,40 @@
+{
+  "status": "OPTIMAL",
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "solver": "highs",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "A",
+      "start": 0.0,
+      "end": 2.0,
+      "position": 0.0,
+      "cranes": [
+        1
+      ]
+    },
+    {
+      "vessel_id": "B",
+      "start": 0.0,
+      "end": 2.0,
+      "position": 100.0,
+      "cranes": [
+        2
+      ]
+    }
+  ],
+  "objective": 4.0,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": true,
+  "lower_bound": 4.0,
+  "solver_relative_gap_on_sum_completion": 0.0,
+  "build_seconds": 0.0012980418978258967,
+  "optimize_seconds": 0.010423374944366515,
+  "wall_seconds": 0.01215816696640104,
+  "budget_seconds": 10.0,
+  "variables": 24,
+  "constraints": 40,
+  "max_model_violation": 0.0,
+  "flow_relative_gap": 0.0
+}

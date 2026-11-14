@@ -1,0 +1,96 @@
+{
+  "status": "OPTIMAL",
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "solver": "highs",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 44.083,
+      "end": 46.04014285715124,
+      "position": -0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 45.222,
+      "end": 48.90771428571429,
+      "position": 102.00000000000001,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 30.673,
+      "end": 36.115857111788635,
+      "position": -0.0,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 26.211,
+      "end": 32.946714285714286,
+      "position": 217.0,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 11.197,
+      "end": 16.81604761904762,
+      "position": -0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 23.440476159416075,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": true,
+  "lower_bound": 23.44047615941608,
+  "solver_relative_gap_on_sum_completion": 0.0,
+  "build_seconds": 0.0005684999050572515,
+  "optimize_seconds": 37.48775029205717,
+  "wall_seconds": 37.488471041899174,
+  "budget_seconds": 300.0,
+  "variables": 170,
+  "constraints": 446,
+  "max_model_violation": 1.24274018631354e-07,
+  "flow_relative_gap": 0.0,
+  "algorithm": "mip",
+  "seed": 0,
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 2.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 300.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "67396ef25939030e",
+  "data_sha256": "5c4b0eeb60e2d9c68ac0ec6a4f99424150e9c64e02fe52fff49e046247ed68a5"
+}

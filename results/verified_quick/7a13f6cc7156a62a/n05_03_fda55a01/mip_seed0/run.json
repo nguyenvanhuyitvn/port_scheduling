@@ -1,0 +1,95 @@
+{
+  "status": "LIMIT",
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "solver": "highs",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 27.123571428571424,
+      "end": 29.780714285714186,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 31.833,
+      "end": 33.29014285714284,
+      "position": 0.0,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 21.49000000000001,
+      "end": 25.454285714285724,
+      "position": 365.99999999999835,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 9.379,
+      "end": 14.500428571428543,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 20.895,
+      "end": 27.12357142857142,
+      "position": -0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "objective": 21.313142857142715,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": false,
+  "lower_bound": 14.104699301571657,
+  "solver_relative_gap_on_sum_completion": 0.05538602404384147,
+  "build_seconds": 0.000829189999421942,
+  "optimize_seconds": 1.006783298999835,
+  "wall_seconds": 1.007845541000279,
+  "budget_seconds": 1.0,
+  "variables": 170,
+  "constraints": 446,
+  "max_model_violation": 4.121147867408581e-13,
+  "flow_relative_gap": 0.33821588884791237,
+  "algorithm": "mip",
+  "seed": 0,
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "fda55a01b6b421e36f8b3839e6ecacc7642a91aaaf795e190fc62965eaa5bbf1"
+}

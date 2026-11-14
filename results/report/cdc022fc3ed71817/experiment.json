@@ -1,0 +1,28 @@
+{
+  "config": {
+    "mode": "time",
+    "seconds": 20.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "environment": {
+    "python": "3.15.0 (v3.15.0:d220409a13b, Oct  9 2026, 08:17:44) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "gurobipy": null
+    }
+  },
+  "source_sha256": "020dc02a330cbcc5d3cf6156a6c89e3010ba7d5bf2968c71f2ad6f04d7cf8c89",
+  "provenance": "independent implementation; self-generated synthetic instances"
+}

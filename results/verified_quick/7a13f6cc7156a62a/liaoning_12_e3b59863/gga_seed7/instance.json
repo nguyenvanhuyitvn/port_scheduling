@@ -1,0 +1,130 @@
+{
+  "name": "liaoning_12",
+  "shoreline": 1400,
+  "cranes": 11,
+  "productivity": 35,
+  "vessels": [
+    {
+      "id": "V1",
+      "eta": 4.0,
+      "length": 111,
+      "workload": 406,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V2",
+      "eta": 12.0,
+      "length": 142,
+      "workload": 165,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V3",
+      "eta": 12.0,
+      "length": 294,
+      "workload": 860,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V4",
+      "eta": 16.0,
+      "length": 222,
+      "workload": 367,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V5",
+      "eta": 24.0,
+      "length": 147,
+      "workload": 913,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V6",
+      "eta": 24.0,
+      "length": 280,
+      "workload": 771,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V7",
+      "eta": 27.0,
+      "length": 208,
+      "workload": 67,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V8",
+      "eta": 45.0,
+      "length": 172,
+      "workload": 974,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V9",
+      "eta": 53.0,
+      "length": 139,
+      "workload": 742,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V10",
+      "eta": 57.0,
+      "length": 141,
+      "workload": 417,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V11",
+      "eta": 58.0,
+      "length": 299,
+      "workload": 1088,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V12",
+      "eta": 60.0,
+      "length": 142,
+      "workload": 311,
+      "q_min": 1,
+      "q_max": 2
+    }
+  ],
+  "metadata": {
+    "source": "Zhou, Cheng, Cao; provided PDF Table 1",
+    "doi": "10.21203/rs.3.rs-9235581/v1",
+    "eta_assumption": "day:hour:minute; day 1 starts at 0 hours; not confirmed by original source code",
+    "eta_original": {
+      "V1": "1:04:00",
+      "V2": "1:12:00",
+      "V3": "1:12:00",
+      "V4": "1:16:00",
+      "V5": "2:00:00",
+      "V6": "2:00:00",
+      "V7": "2:03:00",
+      "V8": "2:21:00",
+      "V9": "3:05:00",
+      "V10": "3:09:00",
+      "V11": "3:10:00",
+      "V12": "3:12:00"
+    },
+    "length_assumption": "use published length as effective length; no additional safety margin",
+    "units": {
+      "eta": "hours",
+      "length": "m",
+      "workload": "TEU",
+      "productivity": "TEU/hour"
+    }
+  }
+}

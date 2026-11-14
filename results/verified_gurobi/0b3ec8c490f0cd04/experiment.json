@@ -1,0 +1,28 @@
+{
+  "config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8",
+      "gurobipy": "13.0.3"
+    }
+  },
+  "source_sha256": "f736a89225be2309207513f9fa326f4b228695e4a87d1f0d17d139292bdc9a6c",
+  "provenance": "independent implementation; self-generated synthetic instances"
+}

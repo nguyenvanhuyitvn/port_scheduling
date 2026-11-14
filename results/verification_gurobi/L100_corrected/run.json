@@ -1,0 +1,40 @@
+{
+  "status": "OPTIMAL",
+  "message": "Gurobi status 2",
+  "solver": "gurobi",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "A",
+      "start": 0.0,
+      "end": 2.0,
+      "position": 0.0,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "B",
+      "start": 2.0,
+      "end": 4.0,
+      "position": 0.0,
+      "cranes": [
+        2
+      ]
+    }
+  ],
+  "objective": 6.0,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": true,
+  "lower_bound": 6.0,
+  "solver_relative_gap_on_sum_completion": 0.0,
+  "build_seconds": 0.0002231560001746402,
+  "optimize_seconds": 0.0007966109997141757,
+  "wall_seconds": 0.0011439540003266302,
+  "budget_seconds": 10.0,
+  "variables": 24,
+  "constraints": 40,
+  "max_model_violation": 0.0,
+  "flow_relative_gap": 0.0
+}

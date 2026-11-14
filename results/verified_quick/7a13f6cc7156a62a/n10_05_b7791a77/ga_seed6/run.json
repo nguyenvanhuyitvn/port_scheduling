@@ -1,0 +1,196 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 43.33521376252716,
+      "end": 46.82092804824145,
+      "position": 399.15984810810295,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 40.826,
+      "end": 49.283142857142856,
+      "position": 779.9186168424634,
+      "cranes": [
+        10
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 13.238630212714527,
+      "end": 16.467201641285957,
+      "position": 569.849001006322,
+      "cranes": [
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 35.485,
+      "end": 37.14214285714286,
+      "position": 387.65310454069896,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 56.61961152637207,
+      "end": 60.36961152637207,
+      "position": 430.50442507022467,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 8.896901195743233,
+      "end": 13.789758338600375,
+      "position": 79.99075007208567,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 60.3900387373745,
+      "end": 70.44718159451736,
+      "position": 593.6732620800466,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 37.14495263610986,
+      "end": 43.32590501706225,
+      "position": 355.510360360025,
+      "cranes": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 50.05544043528865,
+      "end": 56.07258329243151,
+      "position": 77.88678466364313,
+      "cranes": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 21.33263431635027,
+      "end": 29.239777173493128,
+      "position": 150.78575373358842,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "objective": 149.1042323462898,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500481890001538,
+  "budget_seconds": 0.25,
+  "generations": 64,
+  "evaluations": 2445,
+  "feasible_evaluations": 592,
+  "seed": 6,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0002275830001963186,
+      "generation": 0,
+      "objective": 248.6774285714286
+    },
+    {
+      "seconds": 0.0005061519996161223,
+      "generation": 0,
+      "objective": 242.54900000000004
+    },
+    {
+      "seconds": 0.0031821749998925952,
+      "generation": 0,
+      "objective": 203.79642857142852
+    },
+    {
+      "seconds": 0.00778128599995398,
+      "generation": 0,
+      "objective": 181.0071428571429
+    },
+    {
+      "seconds": 0.054539798000405426,
+      "generation": 14,
+      "objective": 172.30657142857146
+    },
+    {
+      "seconds": 0.11423594700045214,
+      "generation": 30,
+      "objective": 169.592446767567
+    },
+    {
+      "seconds": 0.1330090569999811,
+      "generation": 33,
+      "objective": 151.1975950662712
+    },
+    {
+      "seconds": 0.1630215639997914,
+      "generation": 42,
+      "objective": 150.93034432820247
+    },
+    {
+      "seconds": 0.22494534999987081,
+      "generation": 58,
+      "objective": 149.1042323462898
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "b7791a77c5df803975c915984e92afdc2a7acaff13bdb0139dcf7583152f6f4e"
+}

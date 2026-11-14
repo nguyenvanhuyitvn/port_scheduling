@@ -1,0 +1,185 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 10.052,
+      "end": 17.909142857142857,
+      "position": 165.22197658915775,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 38.278,
+      "end": 44.592285714285715,
+      "position": 201.77038072993693,
+      "cranes": [
+        1
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 18.031130409392098,
+      "end": 27.20255898082067,
+      "position": 153.2353310768984,
+      "cranes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 27.667181432558667,
+      "end": 33.41003857541581,
+      "position": 44.93699155718862,
+      "cranes": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 45.12909957300003,
+      "end": 51.39195671585718,
+      "position": 53.20280610722018,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "objective": 39.34698284352223,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500020849993234,
+  "budget_seconds": 0.25,
+  "generations": 118,
+  "evaluations": 4504,
+  "feasible_evaluations": 2482,
+  "seed": 0,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00013239899999462068,
+      "generation": 0,
+      "objective": 55.71528571428571
+    },
+    {
+      "seconds": 0.012737361999825225,
+      "generation": 5,
+      "objective": 54.14957142857143
+    },
+    {
+      "seconds": 0.034285342999282875,
+      "generation": 15,
+      "objective": 53.327300728241525
+    },
+    {
+      "seconds": 0.03654883699982747,
+      "generation": 16,
+      "objective": 53.17274313591686
+    },
+    {
+      "seconds": 0.057638366999526625,
+      "generation": 26,
+      "objective": 51.964063997303725
+    },
+    {
+      "seconds": 0.060005317999639374,
+      "generation": 27,
+      "objective": 51.88594926541434
+    },
+    {
+      "seconds": 0.0720315569997183,
+      "generation": 32,
+      "objective": 50.32023497970006
+    },
+    {
+      "seconds": 0.07235426399984135,
+      "generation": 33,
+      "objective": 50.05105334792273
+    },
+    {
+      "seconds": 0.07529604100000142,
+      "generation": 34,
+      "objective": 46.482258814312445
+    },
+    {
+      "seconds": 0.09768264699960127,
+      "generation": 45,
+      "objective": 44.63828290952516
+    },
+    {
+      "seconds": 0.114302035000037,
+      "generation": 53,
+      "objective": 43.88704179794951
+    },
+    {
+      "seconds": 0.14574588300001778,
+      "generation": 68,
+      "objective": 42.51065417920236
+    },
+    {
+      "seconds": 0.15490985499945964,
+      "generation": 72,
+      "objective": 42.08419906195991
+    },
+    {
+      "seconds": 0.15594034900004772,
+      "generation": 73,
+      "objective": 41.210967611919685
+    },
+    {
+      "seconds": 0.1639323039998999,
+      "generation": 76,
+      "objective": 40.18560309908344
+    },
+    {
+      "seconds": 0.1686732349999147,
+      "generation": 78,
+      "objective": 39.59278784190995
+    },
+    {
+      "seconds": 0.2428172979998635,
+      "generation": 115,
+      "objective": 39.489662486185736
+    },
+    {
+      "seconds": 0.2441791719993489,
+      "generation": 115,
+      "objective": 39.34698284352223
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "c8c8e2b97b39d97321ec37f7e8c16c7a92e79423045837341d02188092d8da4d"
+}

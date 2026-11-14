@@ -1,0 +1,151 @@
+{
+  "status": "LIMIT",
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "solver": "highs",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 37.289,
+      "end": 41.43185714285713,
+      "position": 0.0,
+      "cranes": [
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 47.69599999999999,
+      "end": 50.51028571428571,
+      "position": 212.0,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 6.632,
+      "end": 9.632,
+      "position": 441.0,
+      "cranes": [
+        8
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 23.744,
+      "end": 25.386857142875865,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 5.65,
+      "end": 10.06904761904762,
+      "position": -0.0,
+      "cranes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 50.51028571428571,
+      "end": 53.46028571428571,
+      "position": -0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 5.286,
+      "end": 12.01457142857143,
+      "position": 231.0,
+      "cranes": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 29.859,
+      "end": 35.70185714285714,
+      "position": 0.0,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 17.027,
+      "end": 23.127000000000002,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 46.853,
+      "end": 53.52728571428572,
+      "position": 328.0,
+      "cranes": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "objective": 47.209047619066325,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": false,
+  "lower_bound": 25.27001210547496,
+  "solver_relative_gap_on_sum_completion": 0.06967846826240075,
+  "build_seconds": 0.002016409000134445,
+  "optimize_seconds": 1.00299006700061,
+  "wall_seconds": 1.005392989000029,
+  "budget_seconds": 1.0,
+  "variables": 440,
+  "constraints": 1316,
+  "max_model_violation": 3.745981302927248e-11,
+  "flow_relative_gap": 0.46472099353961216,
+  "algorithm": "mip",
+  "seed": 0,
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "502661f0279fd1b333f2f946e2c9277e274d0022ff0f7562b7605437baaf04c0"
+}

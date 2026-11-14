@@ -1,0 +1,227 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 4.0,
+      "end": 9.8,
+      "position": 1031.192478394487,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 42.05714285714285,
+      "end": 46.771428571428565,
+      "position": 797.2296603125874,
+      "cranes": [
+        11
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 12.0,
+      "end": 24.285714285714285,
+      "position": 1052.4266443753424,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 68.20107805232146,
+      "end": 73.44393519517861,
+      "position": 1146.0174907699657,
+      "cranes": [
+        10,
+        11
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 46.771428571428565,
+      "end": 59.81428571428571,
+      "position": 283.56603746809276,
+      "cranes": [
+        10,
+        11
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 24.285714285714285,
+      "end": 35.3,
+      "position": 860.0260055763072,
+      "cranes": [
+        10,
+        11
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 63.34596081861652,
+      "end": 64.30310367575937,
+      "position": 1181.3264523011394,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 45.0,
+      "end": 58.91428571428571,
+      "position": 49.59253520013926,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 65.36122845632343,
+      "end": 75.96122845632343,
+      "position": 451.7570062765516,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 80.03013911330359,
+      "end": 91.9444248275893,
+      "position": 355.87857454781846,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V11",
+      "start": 77.6675527873888,
+      "end": 85.43898135881737,
+      "position": 1044.9883882558352,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V12",
+      "start": 60.00369206891053,
+      "end": 64.44654921176767,
+      "position": 477.7803598031991,
+      "cranes": [
+        7,
+        8
+      ]
+    }
+  ],
+  "objective": 298.42393701115003,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500992060004137,
+  "budget_seconds": 0.25,
+  "generations": 55,
+  "evaluations": 2119,
+  "feasible_evaluations": 363,
+  "seed": 1,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0002680140005395515,
+      "generation": 0,
+      "objective": 614.0285714285715
+    },
+    {
+      "seconds": 0.0013329690000318806,
+      "generation": 0,
+      "objective": 469.1071428571428
+    },
+    {
+      "seconds": 0.005581049000284111,
+      "generation": 0,
+      "objective": 426.3142857142857
+    },
+    {
+      "seconds": 0.01301972700002807,
+      "generation": 2,
+      "objective": 394.0571428571428
+    },
+    {
+      "seconds": 0.0735857429999669,
+      "generation": 16,
+      "objective": 385.3775655581796
+    },
+    {
+      "seconds": 0.08026652799981093,
+      "generation": 17,
+      "objective": 368.6428571428571
+    },
+    {
+      "seconds": 0.11503418299980694,
+      "generation": 25,
+      "objective": 366.06087544424526
+    },
+    {
+      "seconds": 0.14989125200008857,
+      "generation": 33,
+      "objective": 325.80481063942386
+    },
+    {
+      "seconds": 0.17647751000004064,
+      "generation": 39,
+      "objective": 325.7368387558328
+    },
+    {
+      "seconds": 0.19934720800029027,
+      "generation": 44,
+      "objective": 305.86459925244924
+    },
+    {
+      "seconds": 0.21394827699987218,
+      "generation": 47,
+      "objective": 305.83301881759087
+    },
+    {
+      "seconds": 0.23370943200006877,
+      "generation": 52,
+      "objective": 299.45838422354115
+    },
+    {
+      "seconds": 0.24361840199981089,
+      "generation": 54,
+      "objective": 298.42393701115003
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "e3b598637dcddf2937d13e16839f12e219350bdd6d7af067c7a4d504657f1e1c"
+}

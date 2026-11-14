@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: port-scheduling-coursework
+Version: 2.0.0
+Summary: Reproducible berth and time-invariant specific quay crane scheduling experiments
+Requires-Python: >=3.11
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: scipy<2,>=1.11
+Requires-Dist: matplotlib<4,>=3.9
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: streamlit<2,>=1.67
+Provides-Extra: gurobi
+Requires-Dist: gurobipy<14,>=11; extra == "gurobi"

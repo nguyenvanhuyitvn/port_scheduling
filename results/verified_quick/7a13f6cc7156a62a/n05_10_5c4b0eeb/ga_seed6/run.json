@@ -1,0 +1,185 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 44.083,
+      "end": 46.040142857142854,
+      "position": 450.0792953161611,
+      "cranes": [
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 45.222,
+      "end": 48.907714285714285,
+      "position": 713.7899261164704,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 33.163042125447944,
+      "end": 38.60589926830509,
+      "position": 349.11496358594707,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 26.28397707385092,
+      "end": 33.01969135956521,
+      "position": 21.97176483355527,
+      "cranes": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 11.197,
+      "end": 16.816047619047616,
+      "position": 471.701716446368,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "objective": 26.003495389775054,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500209889994949,
+  "budget_seconds": 0.25,
+  "generations": 105,
+  "evaluations": 4010,
+  "feasible_evaluations": 2834,
+  "seed": 6,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00015185899974312633,
+      "generation": 0,
+      "objective": 68.82642857142858
+    },
+    {
+      "seconds": 0.0009789449995878385,
+      "generation": 0,
+      "objective": 55.326095238095235
+    },
+    {
+      "seconds": 0.0012846660001741839,
+      "generation": 0,
+      "objective": 44.435285714285705
+    },
+    {
+      "seconds": 0.010417041999971843,
+      "generation": 2,
+      "objective": 42.99639384013057
+    },
+    {
+      "seconds": 0.01827975299966056,
+      "generation": 4,
+      "objective": 34.15038299182263
+    },
+    {
+      "seconds": 0.02455078599996341,
+      "generation": 6,
+      "objective": 31.75510462634928
+    },
+    {
+      "seconds": 0.02598823199969047,
+      "generation": 6,
+      "objective": 30.79153807725263
+    },
+    {
+      "seconds": 0.04099878200031526,
+      "generation": 12,
+      "objective": 30.7226928232978
+    },
+    {
+      "seconds": 0.049916023000150744,
+      "generation": 16,
+      "objective": 29.42865682948868
+    },
+    {
+      "seconds": 0.11847217699960311,
+      "generation": 46,
+      "objective": 29.20992325948066
+    },
+    {
+      "seconds": 0.12109377900014806,
+      "generation": 47,
+      "objective": 29.209923233471983
+    },
+    {
+      "seconds": 0.12932564600032492,
+      "generation": 51,
+      "objective": 28.35659394253843
+    },
+    {
+      "seconds": 0.1889192409998941,
+      "generation": 77,
+      "objective": 28.197080308309264
+    },
+    {
+      "seconds": 0.19329346399990754,
+      "generation": 79,
+      "objective": 27.888353692635008
+    },
+    {
+      "seconds": 0.20661781800026802,
+      "generation": 86,
+      "objective": 27.22802735918585
+    },
+    {
+      "seconds": 0.20955086899994058,
+      "generation": 87,
+      "objective": 26.75059621871722
+    },
+    {
+      "seconds": 0.21487856899966573,
+      "generation": 89,
+      "objective": 26.003495389775054
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "5c4b0eeb60e2d9c68ac0ec6a4f99424150e9c64e02fe52fff49e046247ed68a5"
+}

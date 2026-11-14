@@ -1,0 +1,562 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 37.289,
+      "end": 45.574714285714286,
+      "position": 249.55194151653524,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 47.69870322143188,
+      "end": 50.512988935717594,
+      "position": 511.1411233743121,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 6.632,
+      "end": 8.132,
+      "position": 851.9734778526936,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 25.41245447220724,
+      "end": 27.055311615064383,
+      "position": 113.60563998221957,
+      "cranes": [
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 14.490678275877613,
+      "end": 18.90972589492523,
+      "position": 31.414282337468432,
+      "cranes": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 50.54199486697248,
+      "end": 53.49199486697248,
+      "position": 540.1765501130677,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 5.286,
+      "end": 14.257428571428571,
+      "position": 120.88009639175823,
+      "cranes": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 29.867844144047105,
+      "end": 35.710701286904246,
+      "position": 420.50481771402696,
+      "cranes": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 19.300341136874565,
+      "end": 25.400341136874566,
+      "position": 199.84971300665498,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 54.054408372074136,
+      "end": 59.6163131339789,
+      "position": 169.91480832576048,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "objective": 71.00951972758025,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 5.000032041920349,
+  "budget_seconds": 5.0,
+  "generations": 2716,
+  "evaluations": 103211,
+  "feasible_evaluations": 25054,
+  "seed": 4,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0001116669736802578,
+      "generation": 0,
+      "objective": 221.2294285714286
+    },
+    {
+      "seconds": 0.05592408298980445,
+      "generation": 30,
+      "objective": 217.35133333333334
+    },
+    {
+      "seconds": 0.07525224995333701,
+      "generation": 40,
+      "objective": 216.2304727444286
+    },
+    {
+      "seconds": 0.12099495797883719,
+      "generation": 66,
+      "objective": 216.09380607776194
+    },
+    {
+      "seconds": 0.16727066691964865,
+      "generation": 91,
+      "objective": 214.26380607776193
+    },
+    {
+      "seconds": 0.17562620795797557,
+      "generation": 96,
+      "objective": 210.36856798252384
+    },
+    {
+      "seconds": 0.2278310420224443,
+      "generation": 125,
+      "objective": 200.48609179204763
+    },
+    {
+      "seconds": 0.2535950419260189,
+      "generation": 139,
+      "objective": 198.42085369680956
+    },
+    {
+      "seconds": 0.25520595791749656,
+      "generation": 140,
+      "objective": 198.259425125381
+    },
+    {
+      "seconds": 0.2554015829227865,
+      "generation": 140,
+      "objective": 196.59085369680955
+    },
+    {
+      "seconds": 0.2561689999420196,
+      "generation": 140,
+      "objective": 195.09085369680955
+    },
+    {
+      "seconds": 0.3100715419277549,
+      "generation": 170,
+      "objective": 184.78864963012393
+    },
+    {
+      "seconds": 0.37425120791886,
+      "generation": 206,
+      "objective": 183.67626867774297
+    },
+    {
+      "seconds": 0.591142833000049,
+      "generation": 325,
+      "objective": 183.5483443258854
+    },
+    {
+      "seconds": 0.8476828749990091,
+      "generation": 466,
+      "objective": 179.15340791637183
+    },
+    {
+      "seconds": 0.8918835829244927,
+      "generation": 490,
+      "objective": 170.24975968257186
+    },
+    {
+      "seconds": 1.0721484170062467,
+      "generation": 589,
+      "objective": 148.0353194941304
+    },
+    {
+      "seconds": 1.0943032499635592,
+      "generation": 601,
+      "objective": 147.05198616079707
+    },
+    {
+      "seconds": 1.2914281249977648,
+      "generation": 709,
+      "objective": 147.05023484971633
+    },
+    {
+      "seconds": 1.2927866670070216,
+      "generation": 710,
+      "objective": 146.96310297696303
+    },
+    {
+      "seconds": 1.3516518329270184,
+      "generation": 742,
+      "objective": 141.89777775387228
+    },
+    {
+      "seconds": 1.3591956249438226,
+      "generation": 746,
+      "objective": 116.59304960674447
+    },
+    {
+      "seconds": 1.3648295419989154,
+      "generation": 749,
+      "objective": 113.96685913055401
+    },
+    {
+      "seconds": 1.459155207965523,
+      "generation": 800,
+      "objective": 113.95592141543628
+    },
+    {
+      "seconds": 1.5105323329335079,
+      "generation": 828,
+      "objective": 110.81417989704534
+    },
+    {
+      "seconds": 1.5160765829496086,
+      "generation": 831,
+      "objective": 109.33894801957562
+    },
+    {
+      "seconds": 1.517000125022605,
+      "generation": 831,
+      "objective": 106.9413389120623
+    },
+    {
+      "seconds": 1.525583375012502,
+      "generation": 836,
+      "objective": 105.29848176920517
+    },
+    {
+      "seconds": 1.5448088329285383,
+      "generation": 846,
+      "objective": 105.25646518849716
+    },
+    {
+      "seconds": 1.5527993330033496,
+      "generation": 851,
+      "objective": 105.2510809072296
+    },
+    {
+      "seconds": 1.5636690829414874,
+      "generation": 856,
+      "objective": 105.18206120765504
+    },
+    {
+      "seconds": 1.5783994999947026,
+      "generation": 864,
+      "objective": 105.14104217285556
+    },
+    {
+      "seconds": 1.5887073329649866,
+      "generation": 870,
+      "objective": 105.13210819408631
+    },
+    {
+      "seconds": 1.5935026669176295,
+      "generation": 873,
+      "objective": 103.9544455301856
+    },
+    {
+      "seconds": 1.5995522079756483,
+      "generation": 876,
+      "objective": 103.95397027176944
+    },
+    {
+      "seconds": 1.6109525000210851,
+      "generation": 882,
+      "objective": 103.94660412630812
+    },
+    {
+      "seconds": 1.6313896669307724,
+      "generation": 893,
+      "objective": 103.94596203229389
+    },
+    {
+      "seconds": 1.670288166962564,
+      "generation": 914,
+      "objective": 99.43955337634226
+    },
+    {
+      "seconds": 1.6809914169134572,
+      "generation": 920,
+      "objective": 99.20249621953185
+    },
+    {
+      "seconds": 1.6834948329487815,
+      "generation": 921,
+      "objective": 99.20119513767872
+    },
+    {
+      "seconds": 1.6920642079785466,
+      "generation": 926,
+      "objective": 97.24939847552322
+    },
+    {
+      "seconds": 1.7137918749358505,
+      "generation": 938,
+      "objective": 97.24847114159945
+    },
+    {
+      "seconds": 1.714278541970998,
+      "generation": 938,
+      "objective": 97.24777545623542
+    },
+    {
+      "seconds": 1.7571586249396205,
+      "generation": 961,
+      "objective": 97.2477726690984
+    },
+    {
+      "seconds": 1.7683407919248566,
+      "generation": 967,
+      "objective": 97.24776006960026
+    },
+    {
+      "seconds": 1.773659292026423,
+      "generation": 970,
+      "objective": 97.23969167906272
+    },
+    {
+      "seconds": 1.8350887499982491,
+      "generation": 1003,
+      "objective": 97.2396912548785
+    },
+    {
+      "seconds": 2.14189083292149,
+      "generation": 1169,
+      "objective": 93.03966373022936
+    },
+    {
+      "seconds": 2.1541399999987334,
+      "generation": 1175,
+      "objective": 92.40514508750253
+    },
+    {
+      "seconds": 2.260502374963835,
+      "generation": 1233,
+      "objective": 92.37522337614098
+    },
+    {
+      "seconds": 2.2867934169480577,
+      "generation": 1247,
+      "objective": 91.9781853643377
+    },
+    {
+      "seconds": 2.308693291968666,
+      "generation": 1259,
+      "objective": 91.92263220149744
+    },
+    {
+      "seconds": 2.3680572499288246,
+      "generation": 1291,
+      "objective": 91.89388075104596
+    },
+    {
+      "seconds": 2.3790714169153944,
+      "generation": 1297,
+      "objective": 91.11694124965602
+    },
+    {
+      "seconds": 2.6692839169409126,
+      "generation": 1454,
+      "objective": 88.37903731123109
+    },
+    {
+      "seconds": 3.5106004999252036,
+      "generation": 1908,
+      "objective": 87.87050691376905
+    },
+    {
+      "seconds": 3.793797207996249,
+      "generation": 2061,
+      "objective": 87.83250157086711
+    },
+    {
+      "seconds": 4.00239362497814,
+      "generation": 2173,
+      "objective": 81.93124105233217
+    },
+    {
+      "seconds": 4.006381749990396,
+      "generation": 2175,
+      "objective": 80.79040541511401
+    },
+    {
+      "seconds": 4.010029042023234,
+      "generation": 2177,
+      "objective": 80.62912422561364
+    },
+    {
+      "seconds": 4.012618792010471,
+      "generation": 2179,
+      "objective": 78.92890486000692
+    },
+    {
+      "seconds": 4.01517429202795,
+      "generation": 2180,
+      "objective": 78.72894707400772
+    },
+    {
+      "seconds": 4.017394624999724,
+      "generation": 2181,
+      "objective": 78.50737630803374
+    },
+    {
+      "seconds": 4.028171999962069,
+      "generation": 2187,
+      "objective": 78.40034053307802
+    },
+    {
+      "seconds": 4.045263250009157,
+      "generation": 2196,
+      "objective": 76.97714988376151
+    },
+    {
+      "seconds": 4.064645166974515,
+      "generation": 2207,
+      "objective": 76.64784678548945
+    },
+    {
+      "seconds": 4.107502082944848,
+      "generation": 2230,
+      "objective": 76.64744703846694
+    },
+    {
+      "seconds": 4.174190416932106,
+      "generation": 2266,
+      "objective": 76.63012207970081
+    },
+    {
+      "seconds": 4.175221416982822,
+      "generation": 2267,
+      "objective": 75.62638263699016
+    },
+    {
+      "seconds": 4.203892124933191,
+      "generation": 2282,
+      "objective": 75.62427507515757
+    },
+    {
+      "seconds": 4.596560374950059,
+      "generation": 2496,
+      "objective": 75.30066895612592
+    },
+    {
+      "seconds": 4.623264833004214,
+      "generation": 2510,
+      "objective": 75.1746873242575
+    },
+    {
+      "seconds": 4.631464499980211,
+      "generation": 2515,
+      "objective": 75.14395437555255
+    },
+    {
+      "seconds": 4.743229583022185,
+      "generation": 2576,
+      "objective": 73.43786670970285
+    },
+    {
+      "seconds": 4.7535164169967175,
+      "generation": 2581,
+      "objective": 71.79601513317343
+    },
+    {
+      "seconds": 4.766604083008133,
+      "generation": 2588,
+      "objective": 71.7947479480877
+    },
+    {
+      "seconds": 4.780037457938306,
+      "generation": 2596,
+      "objective": 71.79346963634384
+    },
+    {
+      "seconds": 4.797834791941568,
+      "generation": 2605,
+      "objective": 71.29079109529495
+    },
+    {
+      "seconds": 4.9767323329579085,
+      "generation": 2703,
+      "objective": 71.16645249410372
+    },
+    {
+      "seconds": 4.980304874945432,
+      "generation": 2705,
+      "objective": 71.01694392372926
+    },
+    {
+      "seconds": 4.987295749946497,
+      "generation": 2709,
+      "objective": 71.00951972758025
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "initialization": "sequential",
+    "decoder": "raw",
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 5.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 300.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "26331fd6e2eeeb90",
+  "data_sha256": "502661f0279fd1b333f2f946e2c9277e274d0022ff0f7562b7605437baaf04c0"
+}

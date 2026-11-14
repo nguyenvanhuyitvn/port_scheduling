@@ -1,0 +1,226 @@
+{
+  "algorithm": "gga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V4",
+      "start": 0.624,
+      "end": 3.466857142857143,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V13",
+      "start": 2.748,
+      "end": 7.924190476190477,
+      "position": 111.0,
+      "cranes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 3.609,
+      "end": 7.780428571428572,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 5.157,
+      "end": 8.114142857142857,
+      "position": 488.0,
+      "cranes": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 8.529,
+      "end": 11.343285714285715,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V1",
+      "start": 11.064,
+      "end": 13.635428571428571,
+      "position": 209.0,
+      "cranes": [
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V14",
+      "start": 18.463,
+      "end": 23.372523809523813,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V15",
+      "start": 20.629,
+      "end": 26.533761904761906,
+      "position": 309.0,
+      "cranes": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 27.977,
+      "end": 31.869857142857143,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 28.661,
+      "end": 31.603857142857144,
+      "position": 228.0,
+      "cranes": [
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 36.362,
+      "end": 41.99771428571429,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 39.601,
+      "end": 45.71528571428571,
+      "position": 293.0,
+      "cranes": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 40.229,
+      "end": 42.028999999999996,
+      "position": 510.0,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V11",
+      "start": 41.99771428571429,
+      "end": 45.469142857142856,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V12",
+      "start": 42.913,
+      "end": 46.58442857142857,
+      "position": 510.0,
+      "cranes": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "objective": 59.05590476190476,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25007195200032584,
+  "budget_seconds": 0.25,
+  "generations": 11,
+  "evaluations": 456,
+  "feasible_evaluations": 456,
+  "seed": 6,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00022143400019558612,
+      "generation": 0,
+      "objective": 531.9831428571428
+    },
+    {
+      "seconds": 0.0005779510001957533,
+      "generation": 0,
+      "objective": 59.05590476190476
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "c42e6dc794f172bba988e535ea61ef4822ba34fa07f2846b404e58fc739df431"
+}

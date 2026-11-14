@@ -1,0 +1,6 @@
+{
+  "algorithm": "mip",
+  "seed": 0,
+  "error": "Gurobi is not installed. Install gurobipy and activate a license, or select --solver highs.",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/admin/Documents/advanced_alogrimths/code/port_scheduling_streamlit/src/port_scheduler/mip.py\", line 110, in solve\n    import gurobipy as gp\nModuleNotFoundError: No module named 'gurobipy'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/admin/Documents/advanced_alogrimths/code/port_scheduling_streamlit/src/port_scheduler/experiments.py\", line 79, in run_matrix\n    execute(file,algorithm,seed,config,target)\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/admin/Documents/advanced_alogrimths/code/port_scheduling_streamlit/src/port_scheduler/experiments.py\", line 52, in execute\n    result=solve(ins,config.solver,config.solver_seconds,False,int(seed),config.threads)\n  File \"/Users/admin/Documents/advanced_alogrimths/code/port_scheduling_streamlit/src/port_scheduler/mip.py\", line 112, in solve\n    raise RuntimeError(\"Gurobi is not installed. Install gurobipy and activate a license, or select --solver highs.\") from ex\nRuntimeError: Gurobi is not installed. Install gurobipy and activate a license, or select --solver highs.\n"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "synthetic_n5_01",
+  "shoreline": 1000,
+  "cranes": 10,
+  "productivity": 35,
+  "vessels": [
+    {
+      "id": "V1",
+      "eta": 8.589,
+      "length": 83,
+      "workload": 228,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V2",
+      "eta": 22.429,
+      "length": 90,
+      "workload": 174,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V3",
+      "eta": 17.036,
+      "length": 285,
+      "workload": 854,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V4",
+      "eta": 43.447,
+      "length": 275,
+      "workload": 424,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V5",
+      "eta": 31.334,
+      "length": 309,
+      "workload": 1089,
+      "q_min": 4,
+      "q_max": 6
+    }
+  ],
+  "metadata": {
+    "source": "self-generated; ranges inspired by paper Table 3",
+    "seed": 2026,
+    "sample_index": 1,
+    "eta_distribution": "uniform continuous [0,48.0] hours rounded to 0.001",
+    "length_workload_distribution": "discrete uniform; inclusive endpoints",
+    "safety_margin_added_m": 0
+  }
+}

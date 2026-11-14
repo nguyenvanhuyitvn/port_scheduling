@@ -1,0 +1,189 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 24.93,
+      "end": 29.644285714285715,
+      "position": 0.0,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 23.998,
+      "end": 25.683714285714288,
+      "position": 881.0,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 43.426,
+      "end": 50.518857142857144,
+      "position": 238.1224992219532,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 2.819,
+      "end": 6.754714285714286,
+      "position": 683.6207848458031,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 35.043,
+      "end": 40.25252380952381,
+      "position": 574.1737114695343,
+      "cranes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "objective": 22.63809523809524,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 5.000011750031263,
+  "budget_seconds": 5.0,
+  "generations": 4171,
+  "evaluations": 158519,
+  "feasible_evaluations": 147947,
+  "seed": 4,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 8.358294144272804e-05,
+      "generation": 0,
+      "objective": 40.39657142857143
+    },
+    {
+      "seconds": 0.002195167005993426,
+      "generation": 0,
+      "objective": 33.00247619047619
+    },
+    {
+      "seconds": 0.00511595793068409,
+      "generation": 3,
+      "objective": 32.14766056005743
+    },
+    {
+      "seconds": 0.005159249994903803,
+      "generation": 3,
+      "objective": 27.356190476190474
+    },
+    {
+      "seconds": 0.015341124963015318,
+      "generation": 11,
+      "objective": 26.462417746503224
+    },
+    {
+      "seconds": 0.0165788329904899,
+      "generation": 12,
+      "objective": 25.766229976146736
+    },
+    {
+      "seconds": 0.02252120804041624,
+      "generation": 17,
+      "objective": 24.81766664419125
+    },
+    {
+      "seconds": 0.026314749964512885,
+      "generation": 20,
+      "objective": 24.17257449437456
+    },
+    {
+      "seconds": 0.030137374997138977,
+      "generation": 23,
+      "objective": 24.15936361281766
+    },
+    {
+      "seconds": 0.03192087495699525,
+      "generation": 25,
+      "objective": 23.938597521004947
+    },
+    {
+      "seconds": 0.03588162502273917,
+      "generation": 28,
+      "objective": 23.89671038368579
+    },
+    {
+      "seconds": 0.042184291989542544,
+      "generation": 33,
+      "objective": 23.861388392804816
+    },
+    {
+      "seconds": 0.043448374955914915,
+      "generation": 35,
+      "objective": 23.6836485102113
+    },
+    {
+      "seconds": 0.05260912503581494,
+      "generation": 42,
+      "objective": 23.00762046076087
+    },
+    {
+      "seconds": 0.05486558296252042,
+      "generation": 44,
+      "objective": 22.701721822166576
+    },
+    {
+      "seconds": 0.06261516700033098,
+      "generation": 51,
+      "objective": 22.678152381842935
+    },
+    {
+      "seconds": 0.06947766698431224,
+      "generation": 56,
+      "objective": 22.647042939248898
+    },
+    {
+      "seconds": 0.0834391670068726,
+      "generation": 68,
+      "objective": 22.63809523809524
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 5.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 60.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "56ddf506c8ee85e7",
+  "data_sha256": "42d7184f947284917effb1834f0c8aad323e501086ec65bf01f1fb61de90c4b5"
+}

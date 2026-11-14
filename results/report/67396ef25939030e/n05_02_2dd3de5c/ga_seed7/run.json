@@ -1,0 +1,186 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 46.414,
+      "end": 50.47114285714286,
+      "position": 460.88941691986486,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 30.522,
+      "end": 34.10771428571429,
+      "position": 304.10810308996946,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 24.727,
+      "end": 30.998428571428573,
+      "position": 672.6375891698087,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 21.522,
+      "end": 26.636285714285712,
+      "position": 99.61689391946446,
+      "cranes": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 13.339,
+      "end": 18.424714285714288,
+      "position": 326.86235695339735,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 24.11428571428572,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 2.0000164170050994,
+  "budget_seconds": 2.0,
+  "generations": 1663,
+  "evaluations": 63223,
+  "feasible_evaluations": 51893,
+  "seed": 7,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 8.599995635449886e-05,
+      "generation": 0,
+      "objective": 61.303
+    },
+    {
+      "seconds": 0.00021762505639344454,
+      "generation": 0,
+      "objective": 53.36928571428572
+    },
+    {
+      "seconds": 0.0010970840230584145,
+      "generation": 0,
+      "objective": 48.29785714285714
+    },
+    {
+      "seconds": 0.008913500001654029,
+      "generation": 6,
+      "objective": 45.74071428571428
+    },
+    {
+      "seconds": 0.011412000050768256,
+      "generation": 8,
+      "objective": 44.87079073241201
+    },
+    {
+      "seconds": 0.013538999948650599,
+      "generation": 10,
+      "objective": 41.845434131296756
+    },
+    {
+      "seconds": 0.01729983405675739,
+      "generation": 13,
+      "objective": 40.87214576195962
+    },
+    {
+      "seconds": 0.017810416989959776,
+      "generation": 14,
+      "objective": 40.830388325366854
+    },
+    {
+      "seconds": 0.019220500020310283,
+      "generation": 15,
+      "objective": 30.629960436132357
+    },
+    {
+      "seconds": 0.01981887500733137,
+      "generation": 16,
+      "objective": 28.546744055279092
+    },
+    {
+      "seconds": 0.029015291947871447,
+      "generation": 23,
+      "objective": 28.00527602451171
+    },
+    {
+      "seconds": 0.03222845902200788,
+      "generation": 26,
+      "objective": 27.965780080480044
+    },
+    {
+      "seconds": 0.0356272499775514,
+      "generation": 29,
+      "objective": 24.437240090879946
+    },
+    {
+      "seconds": 0.04930241697002202,
+      "generation": 40,
+      "objective": 24.43234564158203
+    },
+    {
+      "seconds": 0.05409079196397215,
+      "generation": 44,
+      "objective": 24.21918664422551
+    },
+    {
+      "seconds": 0.05770883394870907,
+      "generation": 47,
+      "objective": 24.116476710308568
+    },
+    {
+      "seconds": 0.07153408403974026,
+      "generation": 59,
+      "objective": 24.11428571428572
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "initialization": "sequential",
+    "decoder": "raw",
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 2.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 300.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "67396ef25939030e",
+  "data_sha256": "2dd3de5c4cea3257e864613a8c5393fb7dea444ac745e4478dc3d027b255a3b9"
+}

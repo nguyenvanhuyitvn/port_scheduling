@@ -1,0 +1,187 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 46.414,
+      "end": 50.47114285714286,
+      "position": 346.90483333111797,
+      "cranes": [
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 30.522,
+      "end": 34.10771428571429,
+      "position": 483.2993014484794,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 26.790986263463378,
+      "end": 35.15289102536814,
+      "position": 677.4649661725383,
+      "cranes": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 21.53192386719441,
+      "end": 26.646209581480125,
+      "position": 492.35740154453214,
+      "cranes": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 13.339,
+      "end": 19.441857142857145,
+      "position": 157.81547563586312,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 29.29581489256256,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25002159100040444,
+  "budget_seconds": 0.25,
+  "generations": 94,
+  "evaluations": 3602,
+  "feasible_evaluations": 2601,
+  "seed": 6,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00027477399999042973,
+      "generation": 0,
+      "objective": 61.303
+    },
+    {
+      "seconds": 0.0015964160002113204,
+      "generation": 0,
+      "objective": 54.491761904761916
+    },
+    {
+      "seconds": 0.029841087000022526,
+      "generation": 8,
+      "objective": 52.432118472806586
+    },
+    {
+      "seconds": 0.04410573200038925,
+      "generation": 12,
+      "objective": 48.300275621416006
+    },
+    {
+      "seconds": 0.046692732000337855,
+      "generation": 13,
+      "objective": 41.36533005181942
+    },
+    {
+      "seconds": 0.05090703499990923,
+      "generation": 14,
+      "objective": 40.95644402021148
+    },
+    {
+      "seconds": 0.05400758900032088,
+      "generation": 15,
+      "objective": 40.52315457900399
+    },
+    {
+      "seconds": 0.06204671900013636,
+      "generation": 17,
+      "objective": 40.52269444172511
+    },
+    {
+      "seconds": 0.07149927899990871,
+      "generation": 21,
+      "objective": 40.40128918884237
+    },
+    {
+      "seconds": 0.07300119299998187,
+      "generation": 22,
+      "objective": 39.86862542253231
+    },
+    {
+      "seconds": 0.07586775500021758,
+      "generation": 23,
+      "objective": 32.65135123894524
+    },
+    {
+      "seconds": 0.08588842100016336,
+      "generation": 27,
+      "objective": 31.153269123308483
+    },
+    {
+      "seconds": 0.09125008400042134,
+      "generation": 30,
+      "objective": 30.307900895309565
+    },
+    {
+      "seconds": 0.09840176600027917,
+      "generation": 34,
+      "objective": 30.2395999202892
+    },
+    {
+      "seconds": 0.13969944500058773,
+      "generation": 41,
+      "objective": 30.23953575928215
+    },
+    {
+      "seconds": 0.16325946300003125,
+      "generation": 52,
+      "objective": 29.809374810870594
+    },
+    {
+      "seconds": 0.17301970700009406,
+      "generation": 57,
+      "objective": 29.773022114952724
+    },
+    {
+      "seconds": 0.2418078990003778,
+      "generation": 90,
+      "objective": 29.29581489256256
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "2dd3de5c4cea3257e864613a8c5393fb7dea444ac745e4478dc3d027b255a3b9"
+}

@@ -1,0 +1,360 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 8.589,
+      "end": 11.846142857142858,
+      "position": 110.59937667405751,
+      "cranes": [
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 22.429,
+      "end": 24.914714285714282,
+      "position": 326.7580791262203,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 17.036,
+      "end": 23.136000000000003,
+      "position": 613.3021305060363,
+      "cranes": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 43.447,
+      "end": 46.47557142857143,
+      "position": 725.0,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 31.334,
+      "end": 36.51971428571429,
+      "position": 52.90970245261949,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "objective": 20.057142857142857,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 5.000029457965866,
+  "budget_seconds": 5.0,
+  "generations": 4049,
+  "evaluations": 153879,
+  "feasible_evaluations": 134257,
+  "seed": 1,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 8.90420051291585e-05,
+      "generation": 0,
+      "objective": 47.20185714285715
+    },
+    {
+      "seconds": 0.007698207977227867,
+      "generation": 5,
+      "objective": 43.13519047619048
+    },
+    {
+      "seconds": 0.011491292039863765,
+      "generation": 8,
+      "objective": 41.11614285714286
+    },
+    {
+      "seconds": 0.022975916974246502,
+      "generation": 16,
+      "objective": 39.560428571428574
+    },
+    {
+      "seconds": 0.02448579203337431,
+      "generation": 17,
+      "objective": 37.76896183696616
+    },
+    {
+      "seconds": 0.028372916975058615,
+      "generation": 20,
+      "objective": 34.251852080832855
+    },
+    {
+      "seconds": 0.03202416701242328,
+      "generation": 23,
+      "objective": 34.1940563356715
+    },
+    {
+      "seconds": 0.03271266701631248,
+      "generation": 24,
+      "objective": 30.68660842228816
+    },
+    {
+      "seconds": 0.04027679201681167,
+      "generation": 30,
+      "objective": 30.142013248625783
+    },
+    {
+      "seconds": 0.04517395794391632,
+      "generation": 34,
+      "objective": 29.90754672300275
+    },
+    {
+      "seconds": 0.051851124968379736,
+      "generation": 40,
+      "objective": 29.887635954079705
+    },
+    {
+      "seconds": 0.0575145420152694,
+      "generation": 45,
+      "objective": 29.879999999999995
+    },
+    {
+      "seconds": 0.07093575003091246,
+      "generation": 56,
+      "objective": 29.15521153801108
+    },
+    {
+      "seconds": 0.07166183297522366,
+      "generation": 57,
+      "objective": 29.12743187044449
+    },
+    {
+      "seconds": 0.07382712501566857,
+      "generation": 58,
+      "objective": 28.85319127951422
+    },
+    {
+      "seconds": 0.0765807080315426,
+      "generation": 61,
+      "objective": 28.239483088103796
+    },
+    {
+      "seconds": 0.09021179203409702,
+      "generation": 72,
+      "objective": 28.219863521258667
+    },
+    {
+      "seconds": 0.0989677079487592,
+      "generation": 79,
+      "objective": 26.66414923554438
+    },
+    {
+      "seconds": 0.1109173329314217,
+      "generation": 89,
+      "objective": 26.63796616880886
+    },
+    {
+      "seconds": 0.11497462494298816,
+      "generation": 93,
+      "objective": 26.630973474979612
+    },
+    {
+      "seconds": 0.1151001249672845,
+      "generation": 93,
+      "objective": 26.622857142857143
+    },
+    {
+      "seconds": 0.11968041700311005,
+      "generation": 97,
+      "objective": 25.82848045809216
+    },
+    {
+      "seconds": 0.12622066703625023,
+      "generation": 102,
+      "objective": 25.618727181968474
+    },
+    {
+      "seconds": 0.13361808296758682,
+      "generation": 108,
+      "objective": 24.761404110292247
+    },
+    {
+      "seconds": 0.14371624996419996,
+      "generation": 117,
+      "objective": 24.759351888134063
+    },
+    {
+      "seconds": 0.14439612498972565,
+      "generation": 117,
+      "objective": 24.745561373944994
+    },
+    {
+      "seconds": 0.1470689580310136,
+      "generation": 120,
+      "objective": 24.642793178195078
+    },
+    {
+      "seconds": 0.14974604197777808,
+      "generation": 122,
+      "objective": 24.599686565250316
+    },
+    {
+      "seconds": 0.1532080000033602,
+      "generation": 125,
+      "objective": 24.599573463139876
+    },
+    {
+      "seconds": 0.1537526249885559,
+      "generation": 125,
+      "objective": 24.590110611006665
+    },
+    {
+      "seconds": 0.15438829199410975,
+      "generation": 126,
+      "objective": 24.590011543083882
+    },
+    {
+      "seconds": 0.1571983329486102,
+      "generation": 128,
+      "objective": 24.58952380952381
+    },
+    {
+      "seconds": 0.16550258302595466,
+      "generation": 135,
+      "objective": 23.77753969021437
+    },
+    {
+      "seconds": 0.17002745799254626,
+      "generation": 138,
+      "objective": 23.7757457463768
+    },
+    {
+      "seconds": 0.17202075000386685,
+      "generation": 140,
+      "objective": 23.58025771499061
+    },
+    {
+      "seconds": 0.18554612493608147,
+      "generation": 151,
+      "objective": 23.5802565231525
+    },
+    {
+      "seconds": 0.19079045800026506,
+      "generation": 156,
+      "objective": 23.580256492689813
+    },
+    {
+      "seconds": 0.19104595796670765,
+      "generation": 156,
+      "objective": 23.580000030462685
+    },
+    {
+      "seconds": 0.1942919580033049,
+      "generation": 159,
+      "objective": 22.035064495972357
+    },
+    {
+      "seconds": 0.19981129199732095,
+      "generation": 163,
+      "objective": 21.92816003971192
+    },
+    {
+      "seconds": 0.20230549992993474,
+      "generation": 165,
+      "objective": 21.15145539710874
+    },
+    {
+      "seconds": 0.21120962500572205,
+      "generation": 173,
+      "objective": 21.14531477281391
+    },
+    {
+      "seconds": 0.21288683300372213,
+      "generation": 174,
+      "objective": 21.09878561196131
+    },
+    {
+      "seconds": 0.21512570802588016,
+      "generation": 176,
+      "objective": 21.09428571428571
+    },
+    {
+      "seconds": 0.22075324994511902,
+      "generation": 181,
+      "objective": 20.129153788926402
+    },
+    {
+      "seconds": 0.22666970803402364,
+      "generation": 185,
+      "objective": 20.10272178066591
+    },
+    {
+      "seconds": 0.2280141250230372,
+      "generation": 186,
+      "objective": 20.10148068120718
+    },
+    {
+      "seconds": 0.24168866698164493,
+      "generation": 198,
+      "objective": 20.07792503793472
+    },
+    {
+      "seconds": 0.2451829999918118,
+      "generation": 201,
+      "objective": 20.06409562939239
+    },
+    {
+      "seconds": 0.2566625829786062,
+      "generation": 211,
+      "objective": 20.06329122136846
+    },
+    {
+      "seconds": 0.2599537919741124,
+      "generation": 213,
+      "objective": 20.05794726516679
+    },
+    {
+      "seconds": 0.2797311249887571,
+      "generation": 230,
+      "objective": 20.057142857142857
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 5.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 60.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "56ddf506c8ee85e7",
+  "data_sha256": "84eee4a0694e4fadbb91c7ae728ffb8db7641001400ca09f6122128f4c82395d"
+}

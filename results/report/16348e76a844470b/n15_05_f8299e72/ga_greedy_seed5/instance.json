@@ -1,0 +1,136 @@
+{
+  "name": "n15_05",
+  "shoreline": 1200,
+  "cranes": 12,
+  "productivity": 35,
+  "vessels": [
+    {
+      "id": "V1",
+      "eta": 0.295,
+      "length": 93,
+      "workload": 190,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V2",
+      "eta": 29.436,
+      "length": 117,
+      "workload": 261,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V3",
+      "eta": 13.949,
+      "length": 200,
+      "workload": 146,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V4",
+      "eta": 15.892,
+      "length": 174,
+      "workload": 111,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V5",
+      "eta": 44.712,
+      "length": 103,
+      "workload": 277,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V6",
+      "eta": 28.903,
+      "length": 175,
+      "workload": 114,
+      "q_min": 1,
+      "q_max": 2
+    },
+    {
+      "id": "V7",
+      "eta": 4.014,
+      "length": 211,
+      "workload": 953,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V8",
+      "eta": 6.0,
+      "length": 238,
+      "workload": 402,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V9",
+      "eta": 37.703,
+      "length": 210,
+      "workload": 511,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V10",
+      "eta": 19.755,
+      "length": 230,
+      "workload": 587,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V11",
+      "eta": 33.603,
+      "length": 260,
+      "workload": 631,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V12",
+      "eta": 38.986,
+      "length": 218,
+      "workload": 647,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "id": "V13",
+      "eta": 13.942,
+      "length": 387,
+      "workload": 1058,
+      "q_min": 4,
+      "q_max": 6
+    },
+    {
+      "id": "V14",
+      "eta": 36.241,
+      "length": 377,
+      "workload": 1066,
+      "q_min": 4,
+      "q_max": 6
+    },
+    {
+      "id": "V15",
+      "eta": 29.228,
+      "length": 303,
+      "workload": 1181,
+      "q_min": 4,
+      "q_max": 6
+    }
+  ],
+  "metadata": {
+    "source": "self-generated; ranges inspired by paper Table 3",
+    "seed": 2026,
+    "sample_index": 5,
+    "eta_distribution": "uniform continuous [0,48.0] hours rounded to 0.001",
+    "length_workload_distribution": "discrete uniform; inclusive endpoints",
+    "safety_margin_added_m": 0
+  }
+}

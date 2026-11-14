@@ -1,0 +1,197 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 37.289,
+      "end": 41.43185714285715,
+      "position": 178.93904726054004,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 47.696,
+      "end": 53.324571428571424,
+      "position": 656.8461815514371,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 9.422370845136987,
+      "end": 10.922370845136987,
+      "position": 780.3176548423788,
+      "cranes": [
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 23.744,
+      "end": 25.386857142857142,
+      "position": 812.926041794636,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 5.65,
+      "end": 8.964285714285715,
+      "position": 698.8185613755344,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 53.324571428571424,
+      "end": 57.257904761904754,
+      "position": 376.6760344600267,
+      "cranes": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 5.286,
+      "end": 14.257428571428571,
+      "position": 111.27897775083808,
+      "cranes": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 63.93219047619047,
+      "end": 69.77504761904761,
+      "position": 173.49223156369453,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 69.77504761904763,
+      "end": 78.92504761904763,
+      "position": 478.22433587526984,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 57.257904761904754,
+      "end": 63.93219047619047,
+      "position": 269.8216936792308,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 156.52556132132744,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500800560001153,
+  "budget_seconds": 0.25,
+  "generations": 69,
+  "evaluations": 2653,
+  "feasible_evaluations": 735,
+  "seed": 5,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0002398409997113049,
+      "generation": 0,
+      "objective": 221.2294285714286
+    },
+    {
+      "seconds": 0.005079657999885967,
+      "generation": 0,
+      "objective": 215.57471428571426
+    },
+    {
+      "seconds": 0.019975282999439514,
+      "generation": 3,
+      "objective": 193.4678095238095
+    },
+    {
+      "seconds": 0.04761236699960136,
+      "generation": 10,
+      "objective": 161.0897996668532
+    },
+    {
+      "seconds": 0.07380687600016245,
+      "generation": 18,
+      "objective": 158.2437996668532
+    },
+    {
+      "seconds": 0.10504341700016084,
+      "generation": 27,
+      "objective": 157.1390377620913
+    },
+    {
+      "seconds": 0.1423294469996108,
+      "generation": 37,
+      "objective": 156.74407884636295
+    },
+    {
+      "seconds": 0.1536857470000541,
+      "generation": 40,
+      "objective": 156.52952831819331
+    },
+    {
+      "seconds": 0.15889434899963817,
+      "generation": 42,
+      "objective": 156.52556132132744
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "502661f0279fd1b333f2f946e2c9277e274d0022ff0f7562b7605437baaf04c0"
+}

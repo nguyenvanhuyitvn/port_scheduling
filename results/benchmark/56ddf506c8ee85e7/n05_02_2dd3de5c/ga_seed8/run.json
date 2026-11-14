@@ -1,0 +1,275 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 46.414,
+      "end": 50.47114285714286,
+      "position": 322.4336392690271,
+      "cranes": [
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 30.522,
+      "end": 34.10771428571429,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 24.727,
+      "end": 30.998428571428573,
+      "position": 574.3914538504547,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 21.522,
+      "end": 25.357714285714284,
+      "position": 140.48896237621022,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 13.339,
+      "end": 18.424714285714288,
+      "position": 580.1945076338232,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "objective": 22.83571428571429,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 5.000014583929442,
+  "budget_seconds": 5.0,
+  "generations": 4081,
+  "evaluations": 155105,
+  "feasible_evaluations": 131904,
+  "seed": 8,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 8.937495294958353e-05,
+      "generation": 0,
+      "objective": 61.303
+    },
+    {
+      "seconds": 0.00043633393943309784,
+      "generation": 0,
+      "objective": 57.358428571428576
+    },
+    {
+      "seconds": 0.0005875839851796627,
+      "generation": 0,
+      "objective": 47.881428571428586
+    },
+    {
+      "seconds": 0.006568541983142495,
+      "generation": 4,
+      "objective": 45.32428571428572
+    },
+    {
+      "seconds": 0.014672083896584809,
+      "generation": 10,
+      "objective": 40.11669107263927
+    },
+    {
+      "seconds": 0.015543624991551042,
+      "generation": 11,
+      "objective": 39.87445979859751
+    },
+    {
+      "seconds": 0.019771791994571686,
+      "generation": 14,
+      "objective": 39.009782337426344
+    },
+    {
+      "seconds": 0.019860874977894127,
+      "generation": 14,
+      "objective": 38.441166249987965
+    },
+    {
+      "seconds": 0.02228533395100385,
+      "generation": 16,
+      "objective": 38.34542094651782
+    },
+    {
+      "seconds": 0.022311209002509713,
+      "generation": 16,
+      "objective": 38.32943988386117
+    },
+    {
+      "seconds": 0.02267195889726281,
+      "generation": 17,
+      "objective": 34.457586520368565
+    },
+    {
+      "seconds": 0.023561124922707677,
+      "generation": 17,
+      "objective": 32.82988669297334
+    },
+    {
+      "seconds": 0.027753999922424555,
+      "generation": 21,
+      "objective": 32.818611905638384
+    },
+    {
+      "seconds": 0.032254874939098954,
+      "generation": 25,
+      "objective": 32.809245560249714
+    },
+    {
+      "seconds": 0.03860904194880277,
+      "generation": 30,
+      "objective": 31.14948019108951
+    },
+    {
+      "seconds": 0.04159870895091444,
+      "generation": 33,
+      "objective": 31.089074017523288
+    },
+    {
+      "seconds": 0.04268216690979898,
+      "generation": 33,
+      "objective": 30.834736595696803
+    },
+    {
+      "seconds": 0.04605337500106543,
+      "generation": 36,
+      "objective": 30.83464050131228
+    },
+    {
+      "seconds": 0.04868704196996987,
+      "generation": 38,
+      "objective": 30.77483111751151
+    },
+    {
+      "seconds": 0.05143954197410494,
+      "generation": 41,
+      "objective": 27.719896093940775
+    },
+    {
+      "seconds": 0.059837249922566116,
+      "generation": 48,
+      "objective": 27.700000000000003
+    },
+    {
+      "seconds": 0.11583341693039984,
+      "generation": 90,
+      "objective": 26.83519541394397
+    },
+    {
+      "seconds": 0.1254627499729395,
+      "generation": 98,
+      "objective": 26.528555407926355
+    },
+    {
+      "seconds": 0.1267157499678433,
+      "generation": 99,
+      "objective": 26.24451194384519
+    },
+    {
+      "seconds": 0.12919620890170336,
+      "generation": 101,
+      "objective": 25.176340874411046
+    },
+    {
+      "seconds": 0.1356566249160096,
+      "generation": 107,
+      "objective": 24.11429653917915
+    },
+    {
+      "seconds": 0.15081349993124604,
+      "generation": 119,
+      "objective": 24.11428571428572
+    },
+    {
+      "seconds": 0.43862162495497614,
+      "generation": 343,
+      "objective": 23.4832810294105
+    },
+    {
+      "seconds": 0.44662741699721664,
+      "generation": 350,
+      "objective": 23.4773816245389
+    },
+    {
+      "seconds": 0.4571585839148611,
+      "generation": 358,
+      "objective": 23.400359640115987
+    },
+    {
+      "seconds": 0.46621845895424485,
+      "generation": 366,
+      "objective": 23.033466880158088
+    },
+    {
+      "seconds": 0.46836191695183516,
+      "generation": 367,
+      "objective": 23.004201584680764
+    },
+    {
+      "seconds": 0.46918366698082536,
+      "generation": 368,
+      "objective": 22.83601441210478
+    },
+    {
+      "seconds": 0.47782066697254777,
+      "generation": 375,
+      "objective": 22.83592106548017
+    },
+    {
+      "seconds": 0.49838899995666,
+      "generation": 390,
+      "objective": 22.83571428571429
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 5.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 60.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "56ddf506c8ee85e7",
+  "data_sha256": "2dd3de5c4cea3257e864613a8c5393fb7dea444ac745e4478dc3d027b255a3b9"
+}

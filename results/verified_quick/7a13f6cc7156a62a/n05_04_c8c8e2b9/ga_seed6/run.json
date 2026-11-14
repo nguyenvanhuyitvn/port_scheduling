@@ -1,0 +1,188 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 10.052,
+      "end": 13.980571428571428,
+      "position": 105.62746795889592,
+      "cranes": [
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 38.278,
+      "end": 41.43514285714286,
+      "position": 758.3766584453963,
+      "cranes": [
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 16.565,
+      "end": 23.44357142857143,
+      "position": 297.8653867544334,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 27.042,
+      "end": 32.78485714285714,
+      "position": 601.6241626835736,
+      "cranes": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 43.222,
+      "end": 49.484857142857145,
+      "position": 472.3362660318973,
+      "cranes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 25.97,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25005574699935096,
+  "budget_seconds": 0.25,
+  "generations": 120,
+  "evaluations": 4591,
+  "feasible_evaluations": 3448,
+  "seed": 6,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0001832169991757837,
+      "generation": 0,
+      "objective": 55.71528571428571
+    },
+    {
+      "seconds": 0.002501923999261635,
+      "generation": 0,
+      "objective": 50.062
+    },
+    {
+      "seconds": 0.010362259999965318,
+      "generation": 3,
+      "objective": 38.3137528938876
+    },
+    {
+      "seconds": 0.011019460999705188,
+      "generation": 4,
+      "objective": 35.528575450959536
+    },
+    {
+      "seconds": 0.014307209999969928,
+      "generation": 5,
+      "objective": 31.949079312740324
+    },
+    {
+      "seconds": 0.015541972999926656,
+      "generation": 6,
+      "objective": 31.890540619498672
+    },
+    {
+      "seconds": 0.017465293999521236,
+      "generation": 6,
+      "objective": 31.769025483298726
+    },
+    {
+      "seconds": 0.01777560199934669,
+      "generation": 7,
+      "objective": 31.582592767354924
+    },
+    {
+      "seconds": 0.01808090199938306,
+      "generation": 7,
+      "objective": 30.038867650881002
+    },
+    {
+      "seconds": 0.01908927299973584,
+      "generation": 7,
+      "objective": 29.019489539010024
+    },
+    {
+      "seconds": 0.02203999399989698,
+      "generation": 9,
+      "objective": 27.79761904761905
+    },
+    {
+      "seconds": 0.030524210999828938,
+      "generation": 13,
+      "objective": 27.396419356946637
+    },
+    {
+      "seconds": 0.033001186999172205,
+      "generation": 14,
+      "objective": 26.376074678300604
+    },
+    {
+      "seconds": 0.03687708300003578,
+      "generation": 16,
+      "objective": 26.041491020289406
+    },
+    {
+      "seconds": 0.04843581799923413,
+      "generation": 21,
+      "objective": 26.008186982362048
+    },
+    {
+      "seconds": 0.07733541799916566,
+      "generation": 36,
+      "objective": 26.00460297716006
+    },
+    {
+      "seconds": 0.0779590879992611,
+      "generation": 36,
+      "objective": 25.979256338805612
+    },
+    {
+      "seconds": 0.08086276799986081,
+      "generation": 37,
+      "objective": 25.97
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "c8c8e2b97b39d97321ec37f7e8c16c7a92e79423045837341d02188092d8da4d"
+}

@@ -1,0 +1,212 @@
+{
+  "status": "LIMIT",
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "solver": "highs",
+  "model": "corrected",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 36.4232380952381,
+      "end": 40.58038095238095,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 31.808952380952384,
+      "end": 34.9232380952381,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 17.60180952380953,
+      "end": 19.687523809523814,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 26.70180952380953,
+      "end": 28.287523809523815,
+      "position": 0.0,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 8.078,
+      "end": 11.535142857142912,
+      "position": 1048.0,
+      "cranes": [
+        11,
+        12
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 34.9232380952381,
+      "end": 36.4232380952381,
+      "position": 0.0,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 7.832000000000001,
+      "end": 13.067714285714287,
+      "position": 828.0,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 21.616095238095244,
+      "end": 26.70180952380953,
+      "position": 0.0,
+      "cranes": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 6.178000000000001,
+      "end": 12.635142857142856,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 17.60180952380953,
+      "end": 21.61609523809524,
+      "position": 949.0,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V11",
+      "start": 26.701809523809526,
+      "end": 31.808952380952384,
+      "position": 907.0,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V12",
+      "start": 50.74704761904762,
+      "end": 53.932761904761904,
+      "position": 0.0,
+      "cranes": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V13",
+      "start": 12.635142857142862,
+      "end": 17.60180952380953,
+      "position": 262.0,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V14",
+      "start": 40.58038095238095,
+      "end": 45.88990476190476,
+      "position": 0.0,
+      "cranes": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "vessel_id": "V15",
+      "start": 45.88990476190476,
+      "end": 50.74704761904762,
+      "position": 0.0,
+      "cranes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "objective": 96.7152857142858,
+  "feasible": true,
+  "validation_errors": [],
+  "proven_optimal": false,
+  "lower_bound": 30.876814474138598,
+  "solver_relative_gap_on_sum_completion": 0.14780604485887738,
+  "build_seconds": 0.003593833069317043,
+  "optimize_seconds": 60.037956584012136,
+  "wall_seconds": 60.04196841700468,
+  "budget_seconds": 60.0,
+  "variables": 870,
+  "constraints": 2971,
+  "max_model_violation": 2.2737367544323206e-13,
+  "flow_relative_gap": 0.6807452488394211,
+  "algorithm": "mip",
+  "seed": 0,
+  "experiment_config": {
+    "mode": "generations",
+    "seconds": 5.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 60.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "01655ef3c140ef2a",
+  "data_sha256": "0eb1205d950d56c4e07f133ea11df1b56e718bdc7f79765914cce81af185d401"
+}

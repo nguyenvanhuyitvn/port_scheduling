@@ -1,0 +1,275 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 29.832,
+      "end": 32.31771428571429,
+      "position": 40.13732607177457,
+      "cranes": [
+        1,
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 20.169,
+      "end": 23.011857142857142,
+      "position": 223.34830762665555,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 22.559,
+      "end": 28.080428571428573,
+      "position": 754.613290625882,
+      "cranes": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 27.705,
+      "end": 31.92642857142857,
+      "position": 387.5926419641732,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 0.087,
+      "end": 5.987,
+      "position": 358.0471318064108,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "objective": 20.971428571428575,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 5.000009458977729,
+  "budget_seconds": 5.0,
+  "generations": 3963,
+  "evaluations": 150602,
+  "feasible_evaluations": 120121,
+  "seed": 5,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00010754202958196402,
+      "generation": 0,
+      "objective": 66.98957142857144
+    },
+    {
+      "seconds": 0.0005117920227348804,
+      "generation": 0,
+      "objective": 54.20261904761905
+    },
+    {
+      "seconds": 0.0016981250373646617,
+      "generation": 0,
+      "objective": 41.07957142857143
+    },
+    {
+      "seconds": 0.004800708964467049,
+      "generation": 2,
+      "objective": 39.988285714285716
+    },
+    {
+      "seconds": 0.03880783403292298,
+      "generation": 30,
+      "objective": 34.70580254759382
+    },
+    {
+      "seconds": 0.053255709004588425,
+      "generation": 41,
+      "objective": 34.70518910813971
+    },
+    {
+      "seconds": 0.061708959052339196,
+      "generation": 48,
+      "objective": 31.891146661217185
+    },
+    {
+      "seconds": 0.06653266702778637,
+      "generation": 52,
+      "objective": 31.890903393853996
+    },
+    {
+      "seconds": 0.08716029196511954,
+      "generation": 69,
+      "objective": 31.66509145710043
+    },
+    {
+      "seconds": 0.09414850000757724,
+      "generation": 74,
+      "objective": 30.01670629218205
+    },
+    {
+      "seconds": 0.09546920901630074,
+      "generation": 75,
+      "objective": 27.044299513567715
+    },
+    {
+      "seconds": 0.10831412498373538,
+      "generation": 86,
+      "objective": 27.034873360571588
+    },
+    {
+      "seconds": 0.13112708402331918,
+      "generation": 103,
+      "objective": 27.030860524669862
+    },
+    {
+      "seconds": 0.14018874999601394,
+      "generation": 108,
+      "objective": 26.457199363491434
+    },
+    {
+      "seconds": 0.16144475003238767,
+      "generation": 124,
+      "objective": 26.455056855118485
+    },
+    {
+      "seconds": 0.17235483403783292,
+      "generation": 132,
+      "objective": 26.454152104388736
+    },
+    {
+      "seconds": 0.18548904196359217,
+      "generation": 142,
+      "objective": 26.453894454361873
+    },
+    {
+      "seconds": 0.1908431249903515,
+      "generation": 146,
+      "objective": 26.453890940952526
+    },
+    {
+      "seconds": 0.20341320906300098,
+      "generation": 156,
+      "objective": 25.273890940952526
+    },
+    {
+      "seconds": 0.7230183340143412,
+      "generation": 566,
+      "objective": 24.635029872445443
+    },
+    {
+      "seconds": 0.7433766670292243,
+      "generation": 583,
+      "objective": 24.580240461816835
+    },
+    {
+      "seconds": 0.7554102090653032,
+      "generation": 592,
+      "objective": 24.568679397359126
+    },
+    {
+      "seconds": 0.7607207089895383,
+      "generation": 596,
+      "objective": 24.287281809159534
+    },
+    {
+      "seconds": 0.767375500057824,
+      "generation": 602,
+      "objective": 23.7832266161468
+    },
+    {
+      "seconds": 0.7796237090369686,
+      "generation": 611,
+      "objective": 23.719331277295993
+    },
+    {
+      "seconds": 0.789432791993022,
+      "generation": 619,
+      "objective": 22.893623984476093
+    },
+    {
+      "seconds": 0.7969069170067087,
+      "generation": 624,
+      "objective": 22.530186824600598
+    },
+    {
+      "seconds": 0.8011509170755744,
+      "generation": 628,
+      "objective": 22.41737041859264
+    },
+    {
+      "seconds": 0.8160312919644639,
+      "generation": 639,
+      "objective": 22.279839791039073
+    },
+    {
+      "seconds": 0.8417212089989334,
+      "generation": 659,
+      "objective": 22.15003929685576
+    },
+    {
+      "seconds": 0.8534149170154706,
+      "generation": 669,
+      "objective": 21.875549865869594
+    },
+    {
+      "seconds": 0.8755819170037284,
+      "generation": 686,
+      "objective": 21.812375566696463
+    },
+    {
+      "seconds": 0.8978783750208095,
+      "generation": 703,
+      "objective": 21.01255206266037
+    },
+    {
+      "seconds": 0.9076533750630915,
+      "generation": 710,
+      "objective": 21.012551774118684
+    },
+    {
+      "seconds": 0.9152702919673175,
+      "generation": 717,
+      "objective": 20.971428571428575
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 5.0,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 60.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "56ddf506c8ee85e7",
+  "data_sha256": "9a7a1d0d6842d2b75c82db530a5b068623802bc5e6bf3dea111fc2024dde7643"
+}

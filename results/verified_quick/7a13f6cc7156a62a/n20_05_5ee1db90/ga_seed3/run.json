@@ -1,0 +1,283 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 128.4967619047619,
+      "end": 136.6681904761905,
+      "position": 412.1501486138377,
+      "cranes": [
+        3
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 48.98247619047619,
+      "end": 55.46819047619048,
+      "position": 566.1757896433409,
+      "cranes": [
+        10
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 122.69676190476191,
+      "end": 128.4967619047619,
+      "position": 375.71703289872954,
+      "cranes": [
+        9
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 61.668190476190475,
+      "end": 69.8967619047619,
+      "position": 664.4163723053878,
+      "cranes": [
+        10
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 55.468190476190486,
+      "end": 61.66819047619049,
+      "position": 882.4526619337189,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 109.95390476190477,
+      "end": 117.06819047619048,
+      "position": 707.4074423318782,
+      "cranes": [
+        8
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 93.54409715754701,
+      "end": 99.17266858611845,
+      "position": 988.6570138045406,
+      "cranes": [
+        10
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 32.29080952380952,
+      "end": 38.3765238095238,
+      "position": 763.537546070651,
+      "cranes": [
+        7
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 142.5681904761905,
+      "end": 149.1681904761905,
+      "position": 288.4436795939743,
+      "cranes": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 90.83485714285715,
+      "end": 100.13961904761905,
+      "position": 700.5363713487603,
+      "cranes": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V11",
+      "start": 78.6324761904762,
+      "end": 86.21342857142858,
+      "position": 844.3713871262314,
+      "cranes": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V12",
+      "start": 100.13961904761905,
+      "end": 109.95390476190477,
+      "position": 580.2094849144496,
+      "cranes": [
+        10,
+        11
+      ]
+    },
+    {
+      "vessel_id": "V13",
+      "start": 13.841,
+      "end": 21.993380952380953,
+      "position": 231.10338200002286,
+      "cranes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V14",
+      "start": 39.592,
+      "end": 48.98247619047619,
+      "position": 245.55932880461472,
+      "cranes": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "vessel_id": "V15",
+      "start": 1.017,
+      "end": 10.374142857142857,
+      "position": 202.77539016011667,
+      "cranes": [
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V16",
+      "start": 86.21342857142858,
+      "end": 90.83485714285715,
+      "position": 3.2090130659208214,
+      "cranes": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "vessel_id": "V17",
+      "start": 26.199380952380952,
+      "end": 32.29080952380952,
+      "position": 118.64920858214914,
+      "cranes": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V18",
+      "start": 69.89676190476192,
+      "end": 78.6324761904762,
+      "position": 865.0,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V19",
+      "start": 136.66819047619052,
+      "end": 142.56819047619052,
+      "position": 282.2211115495279,
+      "cranes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V20",
+      "start": 11.847,
+      "end": 18.047,
+      "position": 526.2969747233668,
+      "cranes": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "objective": 1078.4589543004042,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25002217200017185,
+  "budget_seconds": 0.25,
+  "generations": 34,
+  "evaluations": 1328,
+  "feasible_evaluations": 139,
+  "seed": 3,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0003405130000828649,
+      "generation": 0,
+      "objective": 1321.7135714285714
+    },
+    {
+      "seconds": 0.0006999449997238116,
+      "generation": 0,
+      "objective": 1301.9207142857144
+    },
+    {
+      "seconds": 0.0010354910000387463,
+      "generation": 0,
+      "objective": 1212.3164285714288
+    },
+    {
+      "seconds": 0.004972257000190439,
+      "generation": 0,
+      "objective": 1106.1890476190479
+    },
+    {
+      "seconds": 0.14981510799952957,
+      "generation": 20,
+      "objective": 1101.9830476190477
+    },
+    {
+      "seconds": 0.22544210199976078,
+      "generation": 31,
+      "objective": 1078.4589543004042
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "5ee1db903cb9b4012cad3bbd2e95411df6a8c518e9fb6bea769729bdbc0c9fdf"
+}

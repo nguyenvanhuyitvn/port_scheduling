@@ -1,0 +1,196 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 54.428072854376865,
+      "end": 60.170929997234005,
+      "position": 583.4959458933937,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 34.396559231047,
+      "end": 38.06798780247557,
+      "position": 55.99735310365267,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 30.924,
+      "end": 32.924,
+      "position": 357.1097875963361,
+      "cranes": [
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 24.717,
+      "end": 26.18842857142857,
+      "position": 68.55766252355032,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 42.032,
+      "end": 46.88914285714285,
+      "position": 336.7963772010033,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 2.217,
+      "end": 9.052714285714286,
+      "position": 362.1323246038686,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 47.973,
+      "end": 53.80157142857143,
+      "position": 61.80443903774594,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 20.704,
+      "end": 30.904,
+      "position": 737.5200507067539,
+      "cranes": [
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 9.052714285714286,
+      "end": 16.424142857142858,
+      "position": 295.42616704631826,
+      "cranes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 61.17351299981573,
+      "end": 69.1949415712443,
+      "position": 371.5827052191327,
+      "cranes": [
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "objective": 130.19585937095388,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500731629997972,
+  "budget_seconds": 0.25,
+  "generations": 77,
+  "evaluations": 2929,
+  "feasible_evaluations": 841,
+  "seed": 5,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00017962999936571578,
+      "generation": 0,
+      "objective": 210.87371428571427
+    },
+    {
+      "seconds": 0.0008411079998040805,
+      "generation": 0,
+      "objective": 158.5157142857143
+    },
+    {
+      "seconds": 0.013396034999459516,
+      "generation": 3,
+      "objective": 157.73725797308373
+    },
+    {
+      "seconds": 0.015667990000110876,
+      "generation": 3,
+      "objective": 157.1817084760557
+    },
+    {
+      "seconds": 0.01642168699981994,
+      "generation": 4,
+      "objective": 139.66927990462713
+    },
+    {
+      "seconds": 0.08100571199975093,
+      "generation": 24,
+      "objective": 132.79628571428572
+    },
+    {
+      "seconds": 0.14597166299972741,
+      "generation": 44,
+      "objective": 130.39405485295728
+    },
+    {
+      "seconds": 0.1663289519992759,
+      "generation": 50,
+      "objective": 130.28836788843682
+    },
+    {
+      "seconds": 0.17485590700016473,
+      "generation": 53,
+      "objective": 130.19585937095388
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "d50ff2edbb3e02de414694804dc12189811c4d3850a101ee0c9cd157a03ca5a4"
+}

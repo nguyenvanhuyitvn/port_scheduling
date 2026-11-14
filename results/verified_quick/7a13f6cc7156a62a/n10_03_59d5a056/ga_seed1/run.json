@@ -1,0 +1,195 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 37.047000000000004,
+      "end": 42.24700000000001,
+      "position": 86.65586779782753,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 4.881,
+      "end": 9.738142857142858,
+      "position": 0.0875065377434804,
+      "cranes": [
+        1
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 61.60197556639546,
+      "end": 65.68768985210974,
+      "position": 0.1354500957404736,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 16.661285714285714,
+      "end": 21.604142857142858,
+      "position": 10.41756043834379,
+      "cranes": [
+        2
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 4.847,
+      "end": 11.804142857142857,
+      "position": 154.81075134259993,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 55.856735353356726,
+      "end": 60.83768773430911,
+      "position": 45.455641415563335,
+      "cranes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 30.37557142857143,
+      "end": 37.047000000000004,
+      "position": 143.32427987629384,
+      "cranes": [
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 42.24700000000001,
+      "end": 45.95176190476191,
+      "position": 0.0,
+      "cranes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 45.986569336735656,
+      "end": 52.42656933673565,
+      "position": 69.64609345575576,
+      "cranes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 21.604142857142858,
+      "end": 30.37557142857143,
+      "position": 0.0964453437612146,
+      "cranes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "objective": 136.47170882791642,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.2500887979995241,
+  "budget_seconds": 0.25,
+  "generations": 63,
+  "evaluations": 2425,
+  "feasible_evaluations": 370,
+  "seed": 1,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.00023967200013430556,
+      "generation": 0,
+      "objective": 152.88628571428575
+    },
+    {
+      "seconds": 0.02472076100002596,
+      "generation": 5,
+      "objective": 151.27628571428576
+    },
+    {
+      "seconds": 0.03320286100006342,
+      "generation": 7,
+      "objective": 148.95429207915822
+    },
+    {
+      "seconds": 0.041945043999476184,
+      "generation": 9,
+      "objective": 148.78580952380955
+    },
+    {
+      "seconds": 0.07605203799994342,
+      "generation": 19,
+      "objective": 141.86666566113638
+    },
+    {
+      "seconds": 0.10175485699983255,
+      "generation": 26,
+      "objective": 141.86548420354356
+    },
+    {
+      "seconds": 0.1032122229999004,
+      "generation": 27,
+      "objective": 141.8652642186015
+    },
+    {
+      "seconds": 0.12135693499931222,
+      "generation": 32,
+      "objective": 141.86525910838992
+    },
+    {
+      "seconds": 0.1457725649997883,
+      "generation": 39,
+      "objective": 140.01287821844858
+    },
+    {
+      "seconds": 0.2315338079997673,
+      "generation": 60,
+      "objective": 136.47170882791642
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "highs",
+    "threads": 1
+  },
+  "experiment_id": "7a13f6cc7156a62a",
+  "data_sha256": "59d5a056ea2f5b6626d7168749d576a6c2f3b9c40458851dba6fe46bd4232cdd"
+}

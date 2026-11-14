@@ -1,0 +1,193 @@
+{
+  "algorithm": "ga",
+  "status": "FEASIBLE",
+  "schedule": [
+    {
+      "vessel_id": "V1",
+      "start": 55.81459579114272,
+      "end": 61.014595791142725,
+      "position": 679.4929769374587,
+      "cranes": [
+        5
+      ]
+    },
+    {
+      "vessel_id": "V2",
+      "start": 15.988884373958197,
+      "end": 20.846027231101054,
+      "position": 619.5476719931661,
+      "cranes": [
+        3
+      ]
+    },
+    {
+      "vessel_id": "V3",
+      "start": 49.52806382597413,
+      "end": 51.570920968831274,
+      "position": 827.5678231142373,
+      "cranes": [
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V4",
+      "start": 5.455,
+      "end": 7.926428571428572,
+      "position": 214.8360698564331,
+      "cranes": [
+        8,
+        9
+      ]
+    },
+    {
+      "vessel_id": "V5",
+      "start": 21.924534450836518,
+      "end": 25.403105879407946,
+      "position": 537.7836316095377,
+      "cranes": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "vessel_id": "V6",
+      "start": 49.08801467315985,
+      "end": 52.823728958874135,
+      "position": 554.0182131938802,
+      "cranes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "vessel_id": "V7",
+      "start": 35.726904740891136,
+      "end": 40.174523788510186,
+      "position": 578.9417992486736,
+      "cranes": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V8",
+      "start": 32.07210041175601,
+      "end": 34.850671840327436,
+      "position": 288.62854810926245,
+      "cranes": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "vessel_id": "V9",
+      "start": 42.51489139199006,
+      "end": 48.95489139199006,
+      "position": 62.30339320367731,
+      "cranes": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "vessel_id": "V10",
+      "start": 8.816,
+      "end": 15.833142857142857,
+      "position": 34.446642270547606,
+      "cranes": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "objective": 118.15003727875624,
+  "feasible": true,
+  "validation_errors": [],
+  "wall_seconds": 0.25007582800026285,
+  "budget_seconds": 0.25,
+  "generations": 67,
+  "evaluations": 2578,
+  "feasible_evaluations": 604,
+  "seed": 8,
+  "proven_optimal": false,
+  "history": [
+    {
+      "seconds": 0.0001896960002341075,
+      "generation": 0,
+      "objective": 152.88628571428575
+    },
+    {
+      "seconds": 0.0015580179997414234,
+      "generation": 0,
+      "objective": 136.4552380952381
+    },
+    {
+      "seconds": 0.12918930199975875,
+      "generation": 35,
+      "objective": 133.44551685839474
+    },
+    {
+      "seconds": 0.1388940429997092,
+      "generation": 37,
+      "objective": 123.68003743882281
+    },
+    {
+      "seconds": 0.22803765400021803,
+      "generation": 61,
+      "objective": 119.85042194883276
+    },
+    {
+      "seconds": 0.23937942199972895,
+      "generation": 64,
+      "objective": 119.77423414695188
+    },
+    {
+      "seconds": 0.24283343899969623,
+      "generation": 65,
+      "objective": 119.19092009004811
+    },
+    {
+      "seconds": 0.24886362999950506,
+      "generation": 67,
+      "objective": 118.15003727875624
+    }
+  ],
+  "parameters": {
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "mutation_progress": "elapsed_time",
+    "elitism": 2,
+    "ga_initialization": "randomized_feasible_sequential",
+    "gga_decoder": "event_time_fixed_q_soft_position_block_preferences"
+  },
+  "experiment_config": {
+    "mode": "time",
+    "seconds": 0.25,
+    "generations": 100,
+    "population": 40,
+    "pc": 0.8,
+    "pm": 0.2,
+    "beta": 0.15,
+    "solver_seconds": 1.0,
+    "solver": "gurobi",
+    "threads": 1
+  },
+  "experiment_id": "0b3ec8c490f0cd04",
+  "data_sha256": "59d5a056ea2f5b6626d7168749d576a6c2f3b9c40458851dba6fe46bd4232cdd"
+}
